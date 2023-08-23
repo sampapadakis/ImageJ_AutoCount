@@ -1,0 +1,2 @@
+ID,Hits,Misses,False Positives,Manual Count,Auto Count,Difference,Absolute Difference,Accuracy,Absolute Difference in Accuracy,Errors,Errors per MC,Threshold,Lower Hue,Upper Hue,Pixel Size
+10004_1.1_01_ARC1,21,2,0,23,21,2,2,0.913,0.087,2,0.087,MaxEntropy,58,113,100
