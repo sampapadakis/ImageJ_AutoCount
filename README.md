@@ -1,6 +1,10 @@
 # ImageJ_AutoCount
 Automatically count cells in microscopy images with optimized parameter settings in ImageJ
 
+### Table of Contents
+1. [Purpose](#purpose)
+2. [Main Project Folders](https://github.com/sampapadakis/ImageJ_AutoCount/edit/main/README.md#main-project-folders)
+
 ## Purpose
 The ImageJ macros contained in this repository are useful for identifying objects that match a limited color range within an image, such as green cells in a microscopy image that overlays two channels - blue cell nuclei (present in every cell, very unlikely to result in background artifacts) and yellow cells of interest (stains cell nucleus and processes, very likely to result in background artifacts). Identifying the green areas where the yellow cells of interest overlap a blue marker that is almost guaranteed to be a true cell body can improve cell detection above standard detection methods that traditionally would apply a single-channel intensity threshold to the yellow channel to remove the processes and background, which are thought to be dimmer than the brightly-stained cell bodies (though this is not always the case, and bright artifacts are common).
 
